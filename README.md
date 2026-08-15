@@ -1,139 +1,453 @@
-# Standard Costing & Variance Analysis — Illustrative Automobile Manufacturing Case Study
+# Standard Costing & Variance Analysis
 
-**Microsoft Excel | Cost Accounting | Financial Analysis | Dashboard**
+### Illustrative Automobile Manufacturing Case Study | Microsoft Excel
+
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-Analysis-green)
+![Cost Accounting](https://img.shields.io/badge/Cost%20Accounting-Standard%20Costing-blue)
+![Financial Analysis](https://img.shields.io/badge/Financial%20Analysis-Variance%20Analysis-orange)
+![Portfolio Project](https://img.shields.io/badge/Project-Portfolio-purple)
+
+---
 
 ## Project Overview
 
-An Excel-based **Standard Costing and Variance Analysis model** developed using **Maruti Suzuki India Limited** as the company context.
+This project presents an **Excel-based Standard Costing and Variance Analysis model** developed around an illustrative automobile manufacturing case study, using **Maruti Suzuki India Limited** as the company context.
 
-The project compares standard and illustrative actual manufacturing costs to analyse **material, labour and overhead variances**, followed by an overall reconciliation and management-style dashboard.
+The model demonstrates how standard costing can be used to compare planned production costs with illustrative actual costs and identify the key drivers of cost differences.
 
-> **Note:** Maruti Suzuki's publicly available FY2025–26 information is used for company context only. The detailed standard and actual cost inputs are **illustrative modelling assumptions** and are not Maruti Suzuki's confidential or internal cost data.
+The analysis covers:
 
----
-
-## Business Problem
-
-Manufacturing businesses need to understand why actual production costs differ from planned or standard costs.
-
-This model demonstrates how variance analysis can identify the key drivers of cost differences across:
-
-* Materials
-* Labour
+* Direct material costs
+* Direct labour costs
 * Manufacturing overheads
+* Favourable and adverse variances
+* Overall cost reconciliation
+* Management-level KPI reporting
+* Dashboard-based visualisation
+
+The project was developed as a **finance and accounting portfolio project** to demonstrate practical application of cost accounting concepts using Microsoft Excel.
+
+> **Important:** Publicly available FY2025–26 Maruti Suzuki information is used only to establish company and industry context. The detailed standard and actual cost inputs used in the model are **illustrative modelling assumptions** and are not claimed to represent Maruti Suzuki's confidential, internal, or officially reported costing data.
 
 ---
 
-## Project Objectives
+# Business Problem
 
-* Build a standard cost model for an illustrative automobile manufacturing scenario.
-* Compare standard and actual costs.
-* Calculate material, labour and overhead variances.
-* Identify major favourable and adverse cost drivers.
-* Reconcile component-level variances with the overall cost variance.
-* Present results through an Excel dashboard.
+Manufacturing organisations need to monitor whether actual production costs are consistent with planned or standard costs.
 
----
+When actual costs differ from standard costs, management needs to understand:
 
-## Excel Model
+* What caused the difference?
+* Was the variance caused by price or usage?
+* Were labour rates higher than expected?
+* Was labour utilisation efficient?
+* Were manufacturing overheads controlled?
+* Which cost category had the greatest impact on the overall result?
 
-The workbook contains **9 sheets**:
+**Standard costing and variance analysis** provide a structured way to answer these questions.
 
-| Sheet                   | Purpose                                      |
-| ----------------------- | -------------------------------------------- |
-| 01 Project Info         | Project scope and overview                   |
-| 02 Assumption & Sources | Sources, assumptions and data classification |
-| 03 Standard Cost        | Standard cost calculation                    |
-| 04 Actual Cost          | Actual cost calculation                      |
-| 05 Material Variance    | Material price & usage variance              |
-| 06 Labour Variance      | Labour rate & efficiency variance            |
-| 07 Overhead Variance    | Overhead expenditure & efficiency variance   |
-| 08 Variance Summary     | Consolidated analysis & reconciliation       |
-| 09 Dashboard            | KPIs, charts & key findings                  |
+This project applies that framework to an illustrative automobile manufacturing scenario and presents the results through an Excel-based analytical model.
 
 ---
 
-## Key Results
+# Project Objectives
 
-| Metric               |                 Result |
-| -------------------- | ---------------------: |
-| Standard Cost        |          ₹13,38,75,000 |
-| Actual Cost          |          ₹13,71,40,000 |
-| Overall Variance     | **₹32,65,000 Adverse** |
-| Variance per Vehicle |     **₹3,265 Adverse** |
-| Reconciliation       |       **CHECK PASSED** |
+The project was developed to:
 
-### Variance Breakdown
-
-| Category |             Variance |
-| -------- | -------------------: |
-| Material |   ₹30,80,000 Adverse |
-| Labour   |    ₹2,85,000 Adverse |
-| Overhead | ₹1,00,000 Favourable |
-
-### Key Finding
-
-**Material cost is the primary contributor to the overall adverse variance**, mainly due to the ₹25.30 lakh adverse material price variance.
-
-Labour efficiency produced a favourable variance, while overheads generated an overall favourable variance that partially offset the adverse material and labour variances.
+1. Build a standard cost model for an illustrative automobile manufacturing scenario.
+2. Develop a corresponding actual cost model.
+3. Analyse material price and usage variances.
+4. Analyse labour rate and efficiency variances.
+5. Analyse manufacturing overhead variances.
+6. Identify the major contributors to the overall cost variance.
+7. Reconcile individual variances with the overall cost difference.
+8. Present the analysis through a management-style Excel dashboard.
+9. Demonstrate practical Excel, accounting and financial analysis skills.
+10. Clearly distinguish public company information from illustrative modelling assumptions.
 
 ---
 
-## Dashboard
+# Model Methodology
+
+The model follows a structured cost-analysis workflow:
+
+```text
+Public Company & Industry Context
+                ↓
+       Source Classification
+                ↓
+        Standard Cost Model
+                ↓
+          Actual Cost Model
+                ↓
+       Material Variance
+                ↓
+        Labour Variance
+                ↓
+       Overhead Variance
+                ↓
+        Variance Summary
+                ↓
+     Overall Reconciliation
+                ↓
+       Dashboard & Findings
+```
+
+The standard cost represents the benchmark cost for the illustrative production scenario.
+
+The actual cost represents the illustrative cost incurred under the model's assumptions.
+
+The difference between the two is analysed through individual variance components.
+
+---
+
+# Excel Workbook Structure
+
+The completed workbook contains **9 sheets**:
+
+| #  | Sheet                    | Purpose                                           |
+| -- | ------------------------ | ------------------------------------------------- |
+| 01 | **Project Info**         | Project scope, purpose and overview               |
+| 02 | **Assumption & Sources** | Sources, assumptions and data classification      |
+| 03 | **Standard Cost**        | Standard quantities, rates and standard cost      |
+| 04 | **Actual Cost**          | Actual quantities, rates and actual cost          |
+| 05 | **Material Variance**    | Material price and usage variance                 |
+| 06 | **Labour Variance**      | Labour rate and efficiency variance               |
+| 07 | **Overhead Variance**    | Overhead expenditure and efficiency variance      |
+| 08 | **Variance Summary**     | Consolidated variance analysis and reconciliation |
+| 09 | **Dashboard**            | KPIs, charts and key findings                     |
+
+---
+
+# Variance Analysis
+
+## Material Variance
+
+The model analyses two material variances.
+
+### Material Price Variance
+
+Measures the effect of paying a different price from the standard price.
+
+```text
+Material Price Variance
+= Actual Quantity × (Standard Price − Actual Price)
+```
+
+### Material Usage Variance
+
+Measures the effect of using more or less material than the standard quantity allowed.
+
+```text
+Material Usage Variance
+= Standard Price × (Standard Quantity − Actual Quantity)
+```
+
+### Result
+
+| Material Variance           |                 Amount |
+| --------------------------- | ---------------------: |
+| Price Variance              |     ₹25,30,000 Adverse |
+| Usage Variance              |      ₹5,50,000 Adverse |
+| **Total Material Variance** | **₹30,80,000 Adverse** |
+
+---
+
+# Labour Variance
+
+The model analyses labour cost through rate and efficiency variances.
+
+### Labour Rate Variance
+
+```text
+Labour Rate Variance
+= Actual Hours × (Standard Rate − Actual Rate)
+```
+
+### Labour Efficiency Variance
+
+```text
+Labour Efficiency Variance
+= Standard Rate × (Standard Hours − Actual Hours)
+```
+
+### Result
+
+| Labour Variance          |                Amount |
+| ------------------------ | --------------------: |
+| Rate Variance            |     ₹4,35,000 Adverse |
+| Efficiency Variance      |  ₹1,50,000 Favourable |
+| **Labour Cost Variance** | **₹2,85,000 Adverse** |
+
+---
+
+# Overhead Variance
+
+The model includes:
+
+* Overhead Expenditure Variance
+* Overhead Efficiency Variance
+
+### Result
+
+| Overhead Variance           |                   Amount |
+| --------------------------- | -----------------------: |
+| Expenditure Variance        |       ₹37,500 Favourable |
+| Efficiency Variance         |       ₹62,500 Favourable |
+| **Total Overhead Variance** | **₹1,00,000 Favourable** |
+
+---
+
+# Overall Results
+
+The completed model produces the following results:
+
+| KPI                      |                 Result |
+| ------------------------ | ---------------------: |
+| **Standard Cost**        |          ₹13,38,75,000 |
+| **Actual Cost**          |          ₹13,71,40,000 |
+| **Overall Variance**     | **₹32,65,000 Adverse** |
+| **Variance per Vehicle** |     **₹3,265 Adverse** |
+| **Reconciliation**       |       **CHECK PASSED** |
+
+### Overall Interpretation
+
+The illustrative actual production cost is higher than the standard cost by **₹32.65 lakh**, resulting in an overall **adverse variance**.
+
+The major contributor is material cost, followed by labour cost.
+
+Overhead performance is favourable and partially offsets the adverse material and labour variances.
+
+---
+
+# Key Findings
+
+### 1. Material cost is the largest adverse contributor
+
+Total material variance is **₹30.80 lakh adverse**, representing the largest contributor to the overall cost difference.
+
+The material variance consists of:
+
+* ₹25.30 lakh adverse price variance
+* ₹5.50 lakh adverse usage variance
+
+The price variance is therefore the primary material-related driver in the illustrative model.
+
+### 2. Labour cost is net adverse
+
+Labour produces a **₹2.85 lakh adverse variance**.
+
+Although labour efficiency is favourable by ₹1.50 lakh, the ₹4.35 lakh adverse labour rate variance more than offsets the efficiency benefit.
+
+### 3. Overheads are favourable
+
+Total overhead variance is **₹1.00 lakh favourable**.
+
+Both expenditure and efficiency variances are favourable in the model.
+
+### 4. Overall cost position is adverse
+
+The combined effect produces:
+
+**₹32.65 lakh Adverse**
+
+or:
+
+**₹3,265 Adverse per vehicle**
+
+### 5. Reconciliation control passed
+
+The model contains a reconciliation control confirming that the component-level variance analysis agrees with the overall variance.
+
+**CHECK PASSED**
+
+---
+
+# Dashboard
+
+The workbook includes a dedicated management-style dashboard containing:
+
+* Standard Cost KPI
+* Actual Cost KPI
+* Overall Variance KPI
+* Variance per Vehicle KPI
+* Variance comparison charts
+* Key findings
+* Reconciliation status
 
 ![Project Dashboard](Screenshots/dashboard.png)
 
 ---
 
-## Tools & Skills
+# Project Screenshots
 
-**Tools:** Microsoft Excel, Excel formulas, charts and dashboards
+## Standard Cost Model
 
-**Skills demonstrated:**
+![Standard Cost Model](Screenshots/standard-cost.png)
 
-* Standard costing
-* Cost accounting
-* Variance analysis
-* Financial modelling
-* Cost reconciliation
-* KPI reporting
-* Financial analysis
-* Management reporting
+## Material Variance Analysis
+
+![Material Variance](Screenshots/material-variance.png)
+
+## Labour Variance Analysis
+
+![Labour Variance](Screenshots/labour-variance.png)
+
+## Overhead Variance Analysis
+
+![Overhead Variance](Screenshots/overhead-variance.png)
+
+## Variance Summary
+
+![Variance Summary](Screenshots/variance-summary.png)
 
 ---
 
-## Data Sources & Assumptions
+# Company Context
 
-Company context is based on publicly available **FY2025–26 Maruti Suzuki** information, including production, sales, net sales and net profit.
+The case study uses **Maruti Suzuki India Limited** as the company context.
+
+Publicly available FY2025–26 information used for contextual reference includes:
+
+| Metric      |               FY2025–26 |
+| ----------- | ----------------------: |
+| Production  | Over 23.4 lakh vehicles |
+| Total Sales |      2,422,713 vehicles |
+| Net Sales   |      ₹1,743,695 million |
+| Net Profit  |        ₹144,454 million |
+
+These figures provide context for the scale of the automobile manufacturing business.
+
+They are **not used to imply that the detailed cost assumptions in this project represent Maruti Suzuki's actual internal production costing**.
+
+---
+
+# Data Sources & Assumptions
+
+The project deliberately separates information into three categories.
+
+## 1. Publicly Reported Company Data
+
+Public Maruti Suzuki information is used for company-level context, including:
+
+* Production
+* Total sales
+* Net sales
+* Net profit
+
+## 2. Industry / Benchmark Context
 
 Government of India / Ministry of Steel / JPC information was used as benchmark context for steel pricing.
 
-Detailed standard and actual cost inputs are **portfolio modelling assumptions**.
+Industry information is used to provide context when developing illustrative assumptions.
 
-The steel quantity used in the model is an industry-informed illustrative assumption and is **not claimed to represent Maruti Suzuki's actual steel consumption**.
+## 3. Portfolio Modelling Assumptions
 
-For detailed methodology, formulas and assumptions, see:
+The detailed standard and actual cost inputs are illustrative assumptions created specifically for this project.
 
-**[Project Notes](Documentation/Project_Notes.md)**
+These include assumptions relating to:
+
+* Material quantities
+* Material prices
+* Labour hours
+* Labour rates
+* Overhead costs
+* Standard costs
+* Actual costs
+
+### Steel Quantity Assumption
+
+The steel quantity used in the model is an **industry-informed illustrative assumption**.
+
+Vehicle weight is used only as contextual reference.
+
+The model does **not** claim that this quantity represents Maruti Suzuki's:
+
+* Actual steel consumption
+* Actual bill of materials
+* Actual procurement quantity
+* Actual production standard
+* Internal material usage
+
+This distinction is intentionally maintained throughout the project.
 
 ---
 
-## Disclaimer
+# Tools & Skills Demonstrated
 
-> This is an educational and portfolio modelling project. Maruti Suzuki India Limited is used as the company context only. The detailed standard quantities, actual quantities, rates, costs and variance inputs are illustrative assumptions and are not confidential, internal, or officially reported Maruti Suzuki costing data.
+## Tools
+
+* Microsoft Excel
+* Excel formulas
+* Excel charts
+* Excel dashboard development
+
+## Accounting & Finance
+
+* Cost Accounting
+* Standard Costing
+* Variance Analysis
+* Cost Control
+* Management Accounting
+* Financial Analysis
+* Cost Reconciliation
+* KPI Analysis
+* Management Reporting
+
+## Excel / Analytical Skills
+
+* Structured workbook design
+* Formula-based modelling
+* Financial calculations
+* Variance calculations
+* Reconciliation controls
+* Dashboard design
+* Data classification
+* Data interpretation
+* Visual reporting
 
 ---
 
-## Project Files
+# Project Files
 
-**[Excel Model](Excel/Standard_Costing_Variance_Analysis.xlsx)**
+### Excel Model
 
-**[Detailed Project Notes](Documentation/Project_Notes.md)**
+**[Open the complete Excel workbook](Excel/Standard_Costing_Variance_Analysis.xlsx)**
+
+The workbook contains all nine completed sheets, calculations, dashboard and reconciliation controls.
+
+### Detailed Documentation
+
+**[Read the Project Notes](Documentation/Project_Notes.md)**
+
+The Project Notes contain detailed methodology, formula explanations, assumptions, source classification, limitations and interpretation.
 
 ---
 
-## Author
+# Disclaimer
+
+> **This is an educational and portfolio modelling project. Maruti Suzuki India Limited is used as the company context only. The standard quantities, actual quantities, rates, costs and detailed variance inputs are illustrative modelling assumptions and are not confidential, internal, or officially reported Maruti Suzuki costing data. Publicly available company and industry information is used only to provide contextual reference and benchmark support.**
+
+---
+
+# Project Purpose
+
+This project was developed as part of a personal **finance and accounting portfolio** to demonstrate practical application of cost accounting and Excel-based financial analysis.
+
+It is intended to demonstrate analytical methodology, Excel modelling, accounting knowledge and professional presentation rather than reproduce a real company's internal costing system.
+
+---
+
+# Author
 
 **Nilankshi Yadav**
 
-B.Com. Student | Accounting & Finance | Excel & Financial Analysis
+B.Com. Student
+Accounting & Finance | Excel | Financial Analysis
+
+---
+
+**Project:** Standard Costing & Variance Analysis
+**Platform:** Microsoft Excel
+**Category:** Cost Accounting / Financial Analysis
+**Project Type:** Portfolio / Illustrative Case Study
