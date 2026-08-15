@@ -2,12 +2,6 @@
 
 ### Illustrative Automobile Manufacturing Case Study | Microsoft Excel
 
-![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-Analysis-green)
-![Cost Accounting](https://img.shields.io/badge/Cost%20Accounting-Standard%20Costing-blue)
-![Financial Analysis](https://img.shields.io/badge/Financial%20Analysis-Variance%20Analysis-orange)
-![Portfolio Project](https://img.shields.io/badge/Project-Portfolio-purple)
-
----
 
 ## Project Overview
 
