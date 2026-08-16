@@ -269,31 +269,30 @@ The workbook includes a dedicated management-style dashboard containing:
 * Key findings
 * Reconciliation status
 
-![Project Dashboard](Screenshots/dashboard.png)
+![Project Dashboard](https://github.com/nilankshiyadav-ux/Standard-Costing-Variance-Analysis/blob/main/Screenshots/Dashboard.png)
 
 ---
 
 # Project Screenshots
 
 ## Standard Cost Model
-
-![Standard Cost Model](Screenshots/standard-cost.png)
-
+[ Standard cost ](https://github.com/nilankshiyadav-ux/Standard-Costing-Variance-Analysis/blob/main/Screenshots/standard_cost.png))
+ 
 ## Material Variance Analysis
 
-![Material Variance](Screenshots/material-variance.png)
+![Material Variance](https://github.com/nilankshiyadav-ux/Standard-Costing-Variance-Analysis/blob/main/Screenshots/material_variance.png)
 
 ## Labour Variance Analysis
 
-![Labour Variance](Screenshots/labour-variance.png)
+![Labour Variance](https://github.com/nilankshiyadav-ux/Standard-Costing-Variance-Analysis/blob/main/Screenshots/labour_variance.png)
 
 ## Overhead Variance Analysis
 
-![Overhead Variance](Screenshots/overhead-variance.png)
+![Overhead Variance](https://github.com/nilankshiyadav-ux/Standard-Costing-Variance-Analysis/blob/main/Screenshots/overheads_variance.png)
 
 ## Variance Summary
 
-![Variance Summary](Screenshots/variance-summary.png)
+![Variance Summary](https://github.com/nilankshiyadav-ux/Standard-Costing-Variance-Analysis/blob/main/Screenshots/variances_summary.png)
 
 ---
 
@@ -412,7 +411,7 @@ The workbook contains all nine completed sheets, calculations, dashboard and rec
 
 ### Detailed Documentation
 
-**[Read the Project Notes](Documentation/Project_Notes.md)**
+**[Read the Project Notes](https://github.com/nilankshiyadav-ux/Standard-Costing-Variance-Analysis/blob/main/Documentation/Project%20Notes.pdf)**
 
 The Project Notes contain detailed methodology, formula explanations, assumptions, source classification, limitations and interpretation.
 
