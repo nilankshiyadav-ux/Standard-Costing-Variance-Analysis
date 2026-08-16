@@ -276,7 +276,7 @@ The workbook includes a dedicated management-style dashboard containing:
 # Project Screenshots
 
 ## Standard Cost Model
-[ Standard cost ](https://github.com/nilankshiyadav-ux/Standard-Costing-Variance-Analysis/blob/main/Screenshots/standard_cost.png))
+[ Standard cost ](https://github.com/nilankshiyadav-ux/Standard-Costing-Variance-Analysis/blob/main/Screenshots/standard_cost.png)
  
 ## Material Variance Analysis
 
