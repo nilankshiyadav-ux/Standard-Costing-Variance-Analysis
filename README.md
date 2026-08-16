@@ -405,7 +405,7 @@ This distinction is intentionally maintained throughout the project.
 
 ### Excel Model
 
-**[Open the complete Excel workbook](Excel/Standard_Costing_Variance_Analysis.xlsx)**
+**[Open the complete Excel workbook](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fnilankshiyadav-ux%2FStandard-Costing-Variance-Analysis%2Frefs%2Fheads%2Fmain%2FExcel%2FStandard_Costing_Variance_Analysis.xlsx&wdOrigin=BROWSELINK)**
 
 The workbook contains all nine completed sheets, calculations, dashboard and reconciliation controls.
 
